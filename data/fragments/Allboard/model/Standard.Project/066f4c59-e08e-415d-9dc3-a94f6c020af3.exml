@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Allboard" version="4">
+  <OBJECT>
+    <ID name="Allboard" mc="Standard.Project" uid="066f4c59-e08e-415d-9dc3-a94f6c020af3"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[Allboard]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="allboard" mc="Standard.Package" uid="23613047-fd99-4b66-b4de-7186e31f3e8c"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="Allboard" mc="Infrastructure.DiagramSet" uid="9dbb74b3-05ab-4ff6-82de-99d97ea9daf0"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

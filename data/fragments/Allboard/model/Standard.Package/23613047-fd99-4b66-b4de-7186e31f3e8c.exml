@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="allboard" version="4">
+  <OBJECT>
+    <ID name="allboard" mc="Standard.Package" uid="23613047-fd99-4b66-b4de-7186e31f3e8c"/>
+    <PID name="Allboard" mc="Standard.Project" uid="066f4c59-e08e-415d-9dc3-a94f6c020af3"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[allboard]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Privileged_Customer" mc="Standard.Class" uid="12da8e93-4cce-47cd-b3d6-d1816b7c8807"/>
+        <COMPID name="Supplier" mc="Standard.Class" uid="620ef825-dcda-412d-b1a1-1420d080618e"/>
+        <COMPID name="Activity" mc="Standard.Class" uid="aa101c38-dbf1-484b-9d49-799351ef6a0e"/>
+        <COMPID name="Photo" mc="Standard.Class" uid="6b99c7eb-fb10-4fb0-8cd5-b3d0a443cec6"/>
+        <OBJECT>
+          <ID name="Type_Of_Material" mc="Standard.Enumeration" uid="9a4f93d1-a4ee-41d8-aea1-f40a14b4627d"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[Type_Of_Material]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Value">
+              <OBJECT>
+                <ID name="Hard goods" mc="Standard.EnumerationLiteral" uid="c0220924-81b8-40e3-814f-17ad4cbb28f8"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Hard goods]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Soft goods" mc="Standard.EnumerationLiteral" uid="64b07f09-f403-4374-9562-f41f0360ecf0"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Soft goods]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="Product" mc="Standard.Class" uid="d69db6ae-cd22-484f-8ac6-b274f3edb598"/>
+        <COMPID name="Product_Availablity" mc="Standard.Class" uid="4acd8568-887a-4304-9f77-ebf1da42d778"/>
+        <COMPID name="Relevant" mc="Standard.Class" uid="8314db0b-b574-4028-84d7-943e6f0cec7e"/>
+        <COMPID name="Specification_Activity" mc="Standard.Class" uid="e32fab1e-db73-4033-8924-477a8b884d31"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Business class diagram" mc="Standard.ClassDiagram" uid="e3fe7285-9810-4023-817e-5bb850404bed"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
