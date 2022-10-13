@@ -13,6 +13,9 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Activity" mc="Standard.Activity" uid="42dc64d1-159d-4295-aec3-f52c577376a3"/>
+      </COMP>
       <COMP relation="OwnedElement">
         <COMPID name="Privileged_Customer" mc="Standard.Class" uid="12da8e93-4cce-47cd-b3d6-d1816b7c8807"/>
         <COMPID name="Supplier" mc="Standard.Class" uid="620ef825-dcda-412d-b1a1-1420d080618e"/>
