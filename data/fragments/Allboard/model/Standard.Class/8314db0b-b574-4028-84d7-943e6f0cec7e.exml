@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Relevant" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Sale_Informations" version="4">
   <OBJECT>
-    <ID name="Relevant" mc="Standard.Class" uid="8314db0b-b574-4028-84d7-943e6f0cec7e"/>
+    <ID name="Sale_Informations" mc="Standard.Class" uid="8314db0b-b574-4028-84d7-943e6f0cec7e"/>
     <PID name="allboard" mc="Standard.Package" uid="23613047-fd99-4b66-b4de-7186e31f3e8c"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,7 +11,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Relevant]]></ATT>
+      <ATT name="Name"><![CDATA[Sale_Informations]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>

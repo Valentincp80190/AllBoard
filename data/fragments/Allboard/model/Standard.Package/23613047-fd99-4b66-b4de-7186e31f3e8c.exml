@@ -55,8 +55,9 @@
         </OBJECT>
         <COMPID name="Product" mc="Standard.Class" uid="d69db6ae-cd22-484f-8ac6-b274f3edb598"/>
         <COMPID name="Product_Availablity" mc="Standard.Class" uid="4acd8568-887a-4304-9f77-ebf1da42d778"/>
-        <COMPID name="Relevant" mc="Standard.Class" uid="8314db0b-b574-4028-84d7-943e6f0cec7e"/>
+        <COMPID name="Sale_Informations" mc="Standard.Class" uid="8314db0b-b574-4028-84d7-943e6f0cec7e"/>
         <COMPID name="Specification_Activity" mc="Standard.Class" uid="e32fab1e-db73-4033-8924-477a8b884d31"/>
+        <COMPID name="Store" mc="Standard.Class" uid="b3448223-0f99-4698-89f5-f69fd54dbd7c"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Business class diagram" mc="Standard.ClassDiagram" uid="e3fe7285-9810-4023-817e-5bb850404bed"/>
