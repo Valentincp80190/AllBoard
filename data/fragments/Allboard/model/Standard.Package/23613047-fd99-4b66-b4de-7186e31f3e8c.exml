@@ -15,6 +15,8 @@
     <DEPENDENCIES>
       <COMP relation="OwnedBehavior">
         <COMPID name="Activity" mc="Standard.Activity" uid="42dc64d1-159d-4295-aec3-f52c577376a3"/>
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="290d34fa-1952-41c1-bcf0-d63af4be35f4"/>
+        <COMPID name="Interaction1" mc="Standard.Interaction" uid="1d434e4b-5a78-49e8-a427-6a328acd0fcc"/>
       </COMP>
       <COMP relation="OwnedElement">
         <COMPID name="Privileged_Customer" mc="Standard.Class" uid="12da8e93-4cce-47cd-b3d6-d1816b7c8807"/>
@@ -58,9 +60,32 @@
         <COMPID name="Sale_Informations" mc="Standard.Class" uid="8314db0b-b574-4028-84d7-943e6f0cec7e"/>
         <COMPID name="Specification_Activity" mc="Standard.Class" uid="e32fab1e-db73-4033-8924-477a8b884d31"/>
         <COMPID name="Store" mc="Standard.Class" uid="b3448223-0f99-4698-89f5-f69fd54dbd7c"/>
+        <COMPID name="Order" mc="Standard.Class" uid="b697c75b-fb4c-4847-91f7-7687d1887726"/>
+        <COMPID name="Privileged_Customer" mc="Standard.Actor" uid="b11baeb3-683e-4ccf-8590-7f6f4bef6594"/>
+        <COMPID name="Send register request" mc="Standard.UseCase" uid="d1168bee-6d45-40c5-b616-a1df5591f4f2"/>
+        <COMPID name="Register to sale" mc="Standard.UseCase" uid="1d5b34a9-9d6e-4f4b-8e93-15836b9bb747"/>
+        <COMPID name="Make order" mc="Standard.UseCase" uid="21106aa0-f518-40f1-8f4c-795473a3d5db"/>
+        <COMPID name="Customer" mc="Standard.Actor" uid="54ba5551-58c3-4f33-9806-e857ce37c08c"/>
+        <COMPID name="Supplier" mc="Standard.Actor" uid="1e635b7c-0146-4329-927d-e940914658c1"/>
+        <COMPID name="Store manager" mc="Standard.Actor" uid="a066b6a4-1fb4-4c63-90d5-22ef453894bf"/>
+        <COMPID name="System" mc="Standard.Actor" uid="8b773ebd-3e7e-45f1-b121-32352458189f"/>
+        <COMPID name="Pay" mc="Standard.UseCase" uid="b1b82c15-6715-4824-9ea1-1a9a97637eea"/>
+        <COMPID name="Offer sale" mc="Standard.UseCase" uid="656486ae-b4f5-4fdd-b7f4-64ec56f07476"/>
+        <COMPID name="Modify personal informations" mc="Standard.UseCase" uid="cfa56604-f8de-45dd-adcf-c5eee1f338c1"/>
+        <COMPID name="Get orders" mc="Standard.UseCase" uid="a6e75235-8219-418c-bb9e-ebe529971d4a"/>
+        <COMPID name="Paiement external system" mc="Standard.Actor" uid="76e763f3-7552-44aa-8ce4-ec8ce5d3090f"/>
+        <COMPID name="Paypal" mc="Standard.UseCase" uid="ee236a0d-f25c-4dcb-8556-05600dec3b1d"/>
+        <COMPID name="Manage registration" mc="Standard.UseCase" uid="ba25941f-8187-4ca0-8213-240890645fb7"/>
+        <COMPID name="Accept" mc="Standard.UseCase" uid="266c1898-f5d0-482b-ae4b-5d8c2c3c78fc"/>
+        <COMPID name="Refuse" mc="Standard.UseCase" uid="55faafa2-8c3e-41e6-8454-2ec6eab2988a"/>
+        <COMPID name="Get proposal sale" mc="Standard.UseCase" uid="216014d6-833b-44a9-808e-62f1b9f55ddc"/>
+        <COMPID name="Send email" mc="Standard.UseCase" uid="6ce40068-ceb3-451e-b696-683f83af12ab"/>
+        <COMPID name="Register product" mc="Standard.UseCase" uid="a14f2a06-3a6a-473a-8cd0-ffa77f2ca0c4"/>
+        <COMPID name="Edit relevant information" mc="Standard.UseCase" uid="27e0e939-871d-4a36-8310-60579359e3a6"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Business class diagram" mc="Standard.ClassDiagram" uid="e3fe7285-9810-4023-817e-5bb850404bed"/>
+        <COMPID name="Use case diagram" mc="Standard.UseCaseDiagram" uid="fc6b3540-0a54-43ce-b526-b76847526611"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

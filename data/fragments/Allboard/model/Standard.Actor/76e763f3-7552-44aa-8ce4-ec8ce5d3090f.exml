@@ -1,23 +1,21 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Specification_Activity" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Paiement external system" version="4">
   <OBJECT>
-    <ID name="Specification_Activity" mc="Standard.Class" uid="e32fab1e-db73-4033-8924-477a8b884d31"/>
+    <ID name="Paiement external system" mc="Standard.Actor" uid="76e763f3-7552-44aa-8ce4-ec8ce5d3090f"/>
     <PID name="allboard" mc="Standard.Package" uid="23613047-fd99-4b66-b4de-7186e31f3e8c"/>
     <ATTRIBUTES>
-      <ATT name="IsActive">false</ATT>
-      <ATT name="IsMain">false</ATT>
       <ATT name="IsElementary">false</ATT>
       <ATT name="IsAbstract">false</ATT>
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Specification_Activity]]></ATT>
+      <ATT name="Name"><![CDATA[Paiement external system]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedEnd">
         <OBJECT>
-          <ID name="" mc="Standard.AssociationEnd" uid="50318c16-aab9-4edc-9359-59d78b6f6e9b"/>
+          <ID name="" mc="Standard.AssociationEnd" uid="002b69a2-fb4e-42d3-bb9f-0502287bd12b"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -25,7 +23,7 @@
             <ATT name="IsDerived">false</ATT>
             <ATT name="IsOrdered">false</ATT>
             <ATT name="IsUnique">false</ATT>
-            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
             <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
@@ -34,11 +32,14 @@
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="Paypal" mc="Standard.UseCase" uid="ee236a0d-f25c-4dcb-8556-05600dec3b1d"/>
+            </LINK>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="activity" mc="Standard.AssociationEnd" uid="e40d6888-9af2-4396-a6b8-66b33cd2bc4f"/>
+                <ID name="" mc="Standard.AssociationEnd" uid="176e2d5c-21a8-4280-a761-02565153af9b"/>
                 <ATTRIBUTES>
-                  <ATT name="Aggregation">KindIsComposition</ATT>
+                  <ATT name="Aggregation">KindIsAssociation</ATT>
                   <ATT name="IsChangeable">true</ATT>
                   <ATT name="Changeable">ReadWrite</ATT>
                   <ATT name="IsDerived">false</ATT>
@@ -49,16 +50,16 @@
                   <ATT name="Visibility">Public</ATT>
                   <ATT name="IsClass">false</ATT>
                   <ATT name="IsAbstract">false</ATT>
-                  <ATT name="Name"><![CDATA[activity]]></ATT>
+                  <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="" mc="Standard.AssociationEnd" uid="50318c16-aab9-4edc-9359-59d78b6f6e9b"/>
+                    <COMPID name="" mc="Standard.AssociationEnd" uid="002b69a2-fb4e-42d3-bb9f-0502287bd12b"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="" mc="Standard.Association" uid="858977a0-a50e-4237-8aba-09942b1c8afb"/>
+                      <ID name="" mc="Standard.Association" uid="8d42867d-53ba-4ac2-84aa-8aed0742895f"/>
                       <ATTRIBUTES>
                         <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -70,23 +71,8 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="" mc="Standard.Association" uid="858977a0-a50e-4237-8aba-09942b1c8afb"/>
+              <COMPID name="" mc="Standard.Association" uid="8d42867d-53ba-4ac2-84aa-8aed0742895f"/>
             </COMP>
-          </DEPENDENCIES>
-        </OBJECT>
-      </COMP>
-      <COMP relation="Parent">
-        <OBJECT>
-          <ID name="Generalization" mc="Standard.Generalization" uid="4d35c412-6545-4452-a9c2-2915a9063a92"/>
-          <ATTRIBUTES>
-            <ATT name="Discriminator"></ATT>
-            <ATT name="Name"><![CDATA[Generalization]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="SuperType">
-              <ID name="Activity" mc="Standard.Class" uid="aa101c38-dbf1-484b-9d49-799351ef6a0e"/>
-            </LINK>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>

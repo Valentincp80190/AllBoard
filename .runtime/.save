@@ -1,3 +1,6 @@
-#Mon Oct 24 20:19:12 CEST 2022
+#Tue Nov 08 16:16:01 CET 2022
+org.modelio.app.diagram.editor.OpenedDiagrams4='Registration sequence diagram' {289a9bc7-121b-45b9-b23a-24b210a2e79d} Standard.SequenceDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams3='Diagramme de s\u00E9quence Interaction1' {878d6ac5-fbf1-4b4b-89ea-5a8d702a1bdc} Standard.SequenceDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams2='Use case diagram' {fc6b3540-0a54-43ce-b526-b76847526611} Standard.UseCaseDiagram
 org.modelio.app.diagram.editor.OpenedDiagrams1='Diagramme d'activit\u00E9 Activity' {a8cb61c5-0a0f-4982-a6d7-155a075d8b33} Standard.ActivityDiagram
 org.modelio.app.diagram.editor.OpenedDiagrams0='Business class diagram' {e3fe7285-9810-4023-817e-5bb850404bed} Standard.ClassDiagram
